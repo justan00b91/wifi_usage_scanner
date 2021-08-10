@@ -14,12 +14,9 @@ def main():
             time.sleep(1)
 
 def convert_to_gbit(value):
-    ''' Humanise the output to less digits. '''
     return value/1024./1024./1024.*8
 
 def convert_to_mbit(value):
-    '''Humanise the output to less digits. '''
     return value/1024./1024.
 
 main()
-
